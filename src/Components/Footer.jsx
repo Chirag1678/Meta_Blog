@@ -9,7 +9,7 @@ function Footer() {
         <img src={logo} alt="logo" className=' fill-black'/>
       </div>
       <div>
-        <Icons background="black" text="white" size="1.2em" pad="10"/>
+        <Icons background="black" text="white" size="1.2em"/>
       </div>
       <div className='font-open text-[#9b9b9b]'>
         <p>All Rights Reserved 2018 3layers</p>

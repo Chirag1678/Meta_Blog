@@ -9,7 +9,7 @@ function Navbar() {
   return (
     <div className='fixed px-36 w-full pt-2'>
     <div className=' flex items-center justify-between w-full py-1 px-4 text-black bg-[#f5f5f580] rounded-3xl '>
-        <Icons background="white" text="black" size="1.2em" pad="10"/>
+        <Icons background="white" text="black" size="1.2em" />
         <div className='logo -ml-16'>
             <img src={logo} alt='logo'/>
         </div>
