@@ -39,7 +39,7 @@ function Example() {
         }
     }
   return (
-    <div className='px-40 py-10 flex justify-between items-center gap-10 w-full font-open'>
+    <div className='px-40 py-10 pb-28 flex justify-between items-center gap-10 w-full font-open'>
         {/* <div className='w-1/2'>
             <div className='img w-full rounded-xl overflow-hidden'>
                 <img src={example1} alt="suggest_1" />
