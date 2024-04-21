@@ -6,8 +6,10 @@ import reading3 from '../Assets/Images/reading_3.png';
 import reading4 from '../Assets/Images/reading_4.png';
 import reading5 from '../Assets/Images/reading_5.png';
 import { IoIosArrowForward } from "react-icons/io";
+import { useNavigate } from 'react-router-dom';
 
 function Reading() {
+  const navigate=useNavigate();
   const ReadingType={
     UI:{
       name: "UI design",
@@ -32,7 +34,10 @@ function Reading() {
   }
   return (
     <div className='w-full px-40 font-open py-10'>
-      <h1 className='font-bold text-4xl'>Reading lists</h1>
+      <div className='flex justify-between items-center'>
+        <h1 className='font-bold text-4xl'>Reading lists</h1>
+        <p className='text-[#ff5480] cursor-pointer' onClick={()=>navigate("/")}>View all</p>
+      </div>
       <div className='flex justify-between items-start py-10'>
         {Object.keys(ReadingType).map((item,index)=>(
          <ReadingCards src={ReadingType[item].src} name={ReadingType[item].name} key={index}/>

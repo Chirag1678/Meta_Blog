@@ -40,36 +40,6 @@ function Example() {
     }
   return (
     <div className='px-40 py-10 pb-28 flex justify-between items-center gap-10 w-full font-open'>
-        {/* <div className='w-1/2'>
-            <div className='img w-full rounded-xl overflow-hidden'>
-                <img src={example1} alt="suggest_1" />
-            </div>
-            <div className='text w-full py-5'>
-                <h6 className='uppercase'>
-                    <span className='text-[#9b9b9b] pr-3'>by</span>
-                    tomas laurinavicius
-                    <span className='text-[#9b9b9b] px-3'>in</span>
-                    resource
-                </h6>
-                <h1 className='capitalize font-semibold text-[28px] leading-tight py-5'>website downtime: applicable tips on how to prevent it</h1>
-                <p className='text-[#9b9b9b]'>User research is the reality check every project needs. Here's our guide to why you should be doing it - and how to get sarted.</p>
-            </div>
-        </div>
-        <div className='w-1/2'>
-            <div className='img w-full rounded-xl overflow-hidden'>
-                <img src={example1} alt="suggest_1" />
-            </div>
-            <div className='text w-full py-5'>
-                <h6 className='uppercase'>
-                    <span className='text-[#9b9b9b] pr-3'>by</span>
-                    tomas laurinavicius
-                    <span className='text-[#9b9b9b] px-3'>in</span>
-                    resource
-                </h6>
-                <h1 className='capitalize font-semibold text-[28px] leading-tight py-5'>website downtime: applicable tips on how to prevent it</h1>
-                <p className='text-[#9b9b9b]'>User research is the reality check every project needs. Here's our guide to why you should be doing it - and how to get sarted.</p>
-            </div>
-        </div> */}
         <Suggest/>
     </div>
   )
