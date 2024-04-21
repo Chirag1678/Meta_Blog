@@ -77,9 +77,9 @@ fifth: {
  heading: 'working remotely - everything you need'
 },
 }
-const popular = generateSection('Popular', popularContent);
-const essentials = generateSection('Essentials', essentialsContent);
-const freelance = generateSection('Freelance', freelanceContent);
+const popular = generateSection('popular', popularContent);
+const essentials = generateSection('essentials', essentialsContent);
+const freelance = generateSection('freelance', freelanceContent);
 
 function Types() {
   return (

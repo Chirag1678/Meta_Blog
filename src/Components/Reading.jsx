@@ -37,7 +37,7 @@ function Reading() {
         {Object.keys(ReadingType).map((item,index)=>(
          <ReadingCards src={ReadingType[item].src} name={ReadingType[item].name} key={index}/>
         ))}
-        <button className='bg-white h-[26.5vh] w-16 shadow-md shadow-gray-300 flex items-center justify-center rounded-lg'><IoIosArrowForward size="1.5em"/></button>
+        <button className='bg-white h-[32vh] w-16 shadow-md shadow-gray-300 flex items-center justify-center rounded-lg'><IoIosArrowForward size="1.5em"/></button>
       </div>
     </div>
   )
