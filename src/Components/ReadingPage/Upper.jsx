@@ -17,16 +17,18 @@ function Upper(props) {
         Popular:reading4,
         Essentials:reading5,
         Freelance:reading6,
-        Typogrpahy:reading7,
+        Typography:reading7,
         How:reading8
       }
-      const imageUrl = data[type.split(" ")[0]];
+      // const imageUrl = data[type.split(" ")[0]];
+      const imageUrl = data[type];
+
   return (
     <div className='mb-20 px-40 pt-10'>
       <h1 className="font-bold text-4xl capitalize">Reading lists</h1>
       <div className="w-[60%] mt-10 flex items-center gap-10">
-      <div className='rounded-lg overflow-hidden w-[13.5vw] aspect-[3/3.8] flex justify-center bg-green-400'>
-        <img src={imageUrl} alt={type.split(" ")[0]}/>
+      <div className='rounded-lg overflow-hidden w-[13.5vw] aspect-[3/3.8] flex justify-center'>
+        <img src={imageUrl} alt={type}/>
       </div>
       <div>
         <h1 className="text-3xl tracking-tighter font-medium capitalize">{type}</h1>
