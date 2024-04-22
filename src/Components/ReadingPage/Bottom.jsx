@@ -22,7 +22,7 @@ function Bottom(props) {
           </p>
           <News />
         </div>
-        <Reading />
+        <Reading selectedType={type}/>
       </div>
     </>
   );
