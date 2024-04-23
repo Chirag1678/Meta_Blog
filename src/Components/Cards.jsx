@@ -5,7 +5,7 @@ import SmallCard from "./SmallCard";
 function Cards(props) {
   const { cards } = props;
   return (
-    <div className="flex items-center justify-between gap-5 py-10">
+    <div className="flex items-center justify-between gap-x-2 py-10">
       {Object.keys(cards).map((item, index) => {
         if (index === 0) {
           return (
