@@ -21,7 +21,7 @@ function Upper(props) {
         How:reading8
       }
       // const imageUrl = data[type.split(" ")[0]];
-      const imageUrl = data[type];
+      const imageUrl = data[type.split(" ")[0]];
 
   return (
     <div className='mb-20 px-40 pt-10'>

@@ -17,7 +17,7 @@ function Cards(props) {
             />
           );
         }
-        return <></>;
+        return <div key={index}></div>;
       })}
       <div className="w-1/2 h-[45vh] rounded-xl overflow-hidden flex items-center justify-between gap-1 flex-wrap">
         {Object.keys(cards).map((item, index) => {
