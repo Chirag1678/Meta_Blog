@@ -2,7 +2,7 @@ import React from 'react'
 import Landing from '../Components/Landing'
 import Types from '../Components/Types'
 import Reading from '../Components/Reading'
-import Example from '../Components/Example'
+import Examples from '../Components/Examples'
 
 const LandingPage = () => {
   return (
@@ -10,7 +10,7 @@ const LandingPage = () => {
       <Landing/>
       <Types/>
       <Reading/>
-      <Example/>
+      <Examples/>
     </div>
   )
 }

@@ -16,4 +16,5 @@
 *{
     font-family: 'opensans';
     user-select: none;
+    box-sizing: border-box;
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import Upper from '../Components/ReadingLists/Upper'
+import Bottom from '../Components/NewPage/Bottom';
 
 function NewPage() {
     const data={
@@ -9,6 +10,7 @@ function NewPage() {
   return (
     <div className='pt-24'>
       <Upper data={data}/>
+      <Bottom/>
     </div>
   )
 }

@@ -16,7 +16,7 @@ function Navbar2() {
         New: "/new",
         Reading: "/read",
         Topics: "/topics",
-        Subscribe: "/"
+        Profile: "/profile"
     }), []);
     const navigate=useNavigate();
     const location = useLocation();
@@ -46,7 +46,7 @@ function Navbar2() {
             <img src={logo} alt="logo" />
         </div>
         <div className='flex items-center gap-x-4 font-semibold'>
-            {["Popular","New","Reading list","Topics","Subscribe"].map((item)=>(
+            {["Popular","New","Reading list","Topics","Profile"].map((item)=>(
                 <p className={`cursor-pointer px-2 py-1 ${activeTab === item.split(" ")[0] ? 'bg-[#ff5480] text-white rounded-md' : ''}`} onClick={()=>handleTabClick(item.split(" ")[0])} key={item}>{item}</p>
             ))}
         </div>

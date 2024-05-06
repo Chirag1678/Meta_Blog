@@ -15,7 +15,7 @@ function Bottom(props) {
               Home
             </span>{" "}
             -{" "}
-            <span onClick={() => navigate("/")} className="cursor-pointer">
+            <span onClick={() => navigate("/read")} className="cursor-pointer">
               Reading lists
             </span>
             <span className="text-[#9b9b9b] capitalize"> - {type}</span>

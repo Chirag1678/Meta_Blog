@@ -15,7 +15,7 @@ function Navbar() {
         New:"/new",
         Reading:"/read",
         Topics:"/topics",
-        Subscribe:"/"
+        Profile:"/profile"
     }
   return (
     <div className='fixed px-36 w-full pt-2'>
@@ -30,7 +30,7 @@ function Navbar() {
         </div>
     </div>
     {showDropdown && <div className='absolute py-3 w-[15vw] bg-white shadow-md shadow-gray-400 mt-2 right-[14.5rem] rounded-xl px-3'>
-      {["Popular","New","Reading list","Topics","Subscribe"].map((item,index)=>(
+      {["Popular","New","Reading list","Topics","Profile"].map((item,index)=>(
         <p key={index} className={`py-2 my-2 px-2 rounded-lg ${active===item? "bg-gray-200 cursor-pointer":""}`} onMouseEnter={()=>setActive(item)} onClick={()=>navigate(`${url[item.split(" ")[0]]}`)}>{item}</p>
       ))}
     </div>}
